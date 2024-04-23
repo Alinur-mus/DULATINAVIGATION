@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/dulaty"
+        android:layout_weight="1"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/korp1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/cobolt_blue"
+            android:text="1.Главный\n корпус"
+            android:textColorLink="#0047AB"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/korp2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/cobolt_blue"
+            android:text="2.Технологический \nкорпус"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/korp3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/cobolt_blue"
+            android:text="3.Гидрокомплекс"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/korp4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/cobolt_blue"
+            android:text="4.Педагогика и \nсоциальные науки"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/korp5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/cobolt_blue"
+            android:text="5.Филология и \n гуманитарные науки"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/korp6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/cobolt_blue"
+            android:text="6.Военная \n кафедра"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
